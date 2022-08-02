@@ -17,3 +17,7 @@ def operations(a,b,c):
     elif c=='*':res= a * b
     elif c=='/':res= a / b
     return res
+
+def transform_complex(x):
+    x1 = complex(x)
+    return x1
