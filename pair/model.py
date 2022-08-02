@@ -11,9 +11,9 @@ def init(x,y,z):
 
 
 def operations(a,b,c):
-    x = 0
-    if c=='+':x=lambda a, b: a + b
-    if c=='-':x=lambda a, b: a - b
-    if c=='*':x=lambda a, b: a * b
-    if c=='/':x=lambda a, b: a / b
-    return x
+    res=0
+    if c=='+':res= a + b
+    elif c=='-':res= a - b
+    elif c=='*':res= a * b
+    elif c=='/':res= a / b
+    return res
